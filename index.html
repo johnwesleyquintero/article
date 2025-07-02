@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Wesley Quintero - Amazon Specialist</title>
+
+    <!-- Self-contained Favicon (Inline SVG) -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%230052cc' d='M10 90 L50 10 L90 90 L75 90 L50 40 L25 90 Z' /%3E%3C/svg%3E">
+
+    <!-- Preload and load fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- SEO & Metadata (Rewritten for Consistency and Impact) -->
+    <meta name="description" content="Results-driven Amazon Growth Specialist blending deep expertise in SEO, PPC, and Catalog Management with custom automation. I deliver measurable growth by adapting data-driven strategies to any team structure.">
+    
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="John Wesley Quintero - Amazon Growth Specialist">
+    <meta property="og:description" content="Results-driven Amazon Growth Specialist blending deep expertise in SEO, PPC, and Catalog Management with custom automation. I deliver measurable growth by adapting data-driven strategies to any team structure.">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://your-domain.com/"> <!-- Replace with your actual URL -->
+    <meta property="og:image" content="https://your-domain.com/og-image.jpg"> <!-- Replace with a link to a professional headshot -->
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="John Wesley Quintero - Amazon Growth Specialist">
+    <meta name="twitter:description" content="Results-driven Amazon Growth Specialist blending deep expertise in SEO, PPC, and Catalog Management with custom automation. I deliver measurable growth by adapting data-driven strategies to any team structure.">
+    <meta name="twitter:image" content="https://your-domain.com/og-image.jpg"> <!-- Replace with a link to a professional headshot -->
+
+    <!-- Schema.org for Rich Snippets (Rewritten for Consistency) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "John Wesley Quintero",
+        "jobTitle": "Amazon Growth Specialist",
+        "description": "A versatile Amazon Growth Specialist who bridges the gap between data-driven strategy and technical execution. Expert in SEO, PPC, catalog management, and custom automation, delivering measurable growth for diverse teams.",
+        "url": "https://https://johnwesleyquintero-article.netlify.app/",
+        "email": "mailto:wesley.ecomva@gmail.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/johnwesleyquintero/",
+          "https://github.com/johnwesleyquintero",
+          "https://wescode.vercel.app/"
+        ],
+        "knowsAbout": [
+          "Amazon SEO", "Amazon PPC", "Amazon Catalog Management", "FBA Inventory Management", "Business Intelligence", "Python", "Pandas", "Looker Studio", "React", "Google Gemini API", "Prompt Engineering"
+        ]
+      }
+    }
+    </script>
+    
+    <style>
+        /* --- THEME & VARIABLES --- */
+        :root {
+            --primary-color: #0052cc;
+            --secondary-color: #0770dd;
+            --accent-color: #f7a04a;
+            --text-color: #212529;
+            --light-text-color: #5a6268;
+            --bg-color: #f8f9fa;
+            --card-bg-color: #ffffff;
+            --border-color: #dee2e6;
+            --code-bg-color: #e9ecef;
+            --quote-bg-color: #e7f1ff;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            --nav-height: 60px;
+        }
+
+        :root.dark {
+            --primary-color: #66aaff;
+            --secondary-color: #4da6ff;
+            --accent-color: #f7c38a;
+            --text-color: #e9ecef;
+            --light-text-color: #ced4da;
+            --bg-color: #1a202c;
+            --card-bg-color: #2d3748;
+            --border-color: #4a5568;
+            --code-bg-color: #4a5568;
+            --quote-bg-color: #2c3e50;
+        }
+
+        /* --- BASE & RESET --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; scroll-padding-top: var(--nav-height); }
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            font-size: 16px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            * { transition: none !important; }
+        }
+
+        /* --- ICON STYLES (NEW) --- */
+        .lucide {
+            width: 1.1em;
+            height: 1.1em;
+            stroke-width: 2;
+            vertical-align: -0.15em;
+        }
+        .icon-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .icon-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        .icon-list .lucide {
+            margin-top: 5px;
+            flex-shrink: 0;
+            width: 18px;
+            height: 18px;
+            color: var(--primary-color);
+        }
+
+        /* --- LAYOUT & COMPONENTS --- */
+        .container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        header { text-align: center; margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid var(--border-color); }
+        .card {
+            background-color: var(--card-bg-color);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+
+        /* --- TYPOGRAPHY --- */
+        h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 8px; }
+        h2 { 
+            font-size: 2.0rem; 
+            color: var(--primary-color); 
+            font-weight: 700; 
+            margin-bottom: 24px; 
+            padding-bottom: 10px; 
+            border-bottom: 2px solid var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        h2 .lucide { width: 30px; height: 30px; }
+        h3 { font-size: 1.5rem; font-weight: 600; margin-top: 28px; margin-bottom: 16px; }
+        p, ul, ol, dl { margin-bottom: 1rem; }
+        ul, ol { padding-left: 0; /* Remove default padding, handled by icon-list */ }
+        li { margin-bottom: 0.75rem; }
+        dt { 
+            font-weight: 700; 
+            margin-top: 1.25rem; 
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        dt .lucide { color: var(--primary-color); }
+        dd { margin-left: 20px; padding-left: 15px; border-left: 2px solid var(--border-color); }
+        dd ul { margin-top: 0.5rem; }
+        strong { font-weight: 600; color: var(--text-color); }
+        code { background-color: var(--code-bg-color); color: var(--primary-color); padding: 3px 6px; border-radius: 4px; font-family: "SFMono-Regular", Consolas, Menlo, monospace; font-size: 0.9em; }
+        a { color: var(--secondary-color); text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; color: var(--primary-color); }
+        .intro-quote {
+            background-color: var(--quote-bg-color);
+            border-left: 5px solid var(--primary-color);
+            padding: 20px;
+            margin: 30px 0;
+            font-size: 1.1rem;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+            position: relative;
+            padding-left: 50px;
+        }
+        .intro-quote::before {
+            font-family: 'Times New Roman', Times, serif;
+            content: '“';
+            position: absolute;
+            left: 15px;
+            top: 10px;
+            font-size: 3rem;
+            color: var(--primary-color);
+            opacity: 0.5;
+        }
+        .impact-highlight {
+            background: linear-gradient(120deg, var(--accent-color) 0%, var(--accent-color) 100%);
+            background-repeat: no-repeat;
+            background-size: 100% 30%;
+            background-position: 0 88%;
+            padding: 0 2px;
+        }
+
+        /* --- FIXED UI ELEMENTS (BUTTONS) --- */
+        .fixed-ui-button {
+            position: fixed;
+            display: flex; /* Center icon */
+            justify-content: center;
+            align-items: center;
+            width: 44px; height: 44px;
+            border-radius: 50%;
+            background-color: var(--card-bg-color);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1001;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+        .fixed-ui-button:hover { background-color: var(--border-color); transform: translateY(-2px); }
+        .fixed-ui-button .lucide { width: 24px; height: 24px; margin-right: 0; }
+        
+        #darkModeToggle { top: 1rem; right: 1rem; }
+        #darkModeToggle #moonIcon { display: block; }
+        #darkModeToggle #sunIcon { display: none; }
+        :root.dark #darkModeToggle #moonIcon { display: none; }
+        :root.dark #darkModeToggle #sunIcon { display: block; }
+
+        #backToTopBtn { display: none; bottom: 1rem; right: 1rem; }
+        #printButton { bottom: 1rem; right: 4.5rem; }
+        #burgerMenuToggle { display: none; top: 1rem; left: 1rem; }
+
+        /* --- NAVIGATION --- */
+        #site-navigation {
+            position: sticky; top: 0; z-index: 1000; height: var(--nav-height);
+            background-color: var(--card-bg-color); box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-bottom: 1px solid var(--border-color);
+        }
+        #site-navigation .nav-container {
+            max-width: 960px; margin: 0 auto; display: flex;
+            justify-content: center; align-items: center; height: 100%;
+        }
+        #site-navigation ul { list-style: none; display: flex; }
+        .nav-item { position: relative; margin: 0 5px; }
+        .nav-link {
+            display: flex; align-items: center; gap: 8px; /* For icon alignment */
+            padding: 10px 15px; font-weight: 600; color: var(--text-color);
+            border-radius: 6px; background: none; border: none;
+            font-family: inherit; font-size: 0.95rem; cursor: pointer;
+        }
+        .nav-link:hover { background-color: var(--code-bg-color); color: var(--primary-color); }
+        .dropdown-indicator { margin-left: auto; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid currentColor; transition: transform 0.2s ease; }
+        .nav-item.is-open .dropdown-indicator { transform: rotate(180deg); }
+        .nav-dropdown {
+            position: absolute; top: 110%; left: 50%; transform: translateX(-50%);
+            background-color: var(--card-bg-color); border: 1px solid var(--border-color);
+            border-radius: 8px; box-shadow: 0 8px 16px rgba(0,0,0,0.1); min-width: 220px;
+            z-index: 1001; opacity: 0; visibility: hidden;
+            transform-origin: top center; transition: opacity 0.2s ease, visibility 0.2s ease, top 0.2s ease;
+        }
+        .nav-item.is-open .nav-dropdown { opacity: 1; visibility: visible; top: 100%; }
+        .nav-dropdown ul { flex-direction: column; padding: 8px; }
+        .nav-dropdown li { width: 100%; }
+        .nav-dropdown a { display: flex; align-items: center; gap: 10px; padding: 10px 15px; border-radius: 4px; color: var(--text-color); font-weight: 500; white-space: nowrap; }
+        .nav-dropdown a:hover { background-color: var(--code-bg-color); color: var(--primary-color); }
+
+        /* --- TABLE OF CONTENTS (TOC) --- */
+        #toc-sidebar {
+            position: fixed; top: calc(var(--nav-height) + 40px); left: calc(50% + 470px);
+            width: 220px; max-height: calc(100vh - var(--nav-height) - 80px);
+            overflow-y: auto; padding: 20px;
+        }
+        #toc-sidebar h3 { 
+            margin-top: 0; font-size: 1.1rem; color: var(--primary-color); 
+            padding-bottom: 10px; border-bottom: 1px solid var(--border-color);
+            display: flex; align-items: center; gap: 8px;
+        }
+        #toc-sidebar ul { list-style: none; }
+        #toc-sidebar li a {
+            display: block; padding: 8px 10px; font-size: 0.9rem;
+            color: var(--light-text-color); border-left: 3px solid transparent;
+            transition: all 0.2s ease;
+        }
+        #toc-sidebar li a:hover { color: var(--primary-color); transform: translateX(3px); }
+        #toc-sidebar li a.active { color: var(--primary-color); font-weight: 700; border-left-color: var(--primary-color); background-color: var(--quote-bg-color); }
+        
+        /* --- MOBILE & RESPONSIVE --- */
+        @media (max-width: 1200px) { #toc-sidebar { display: none; } }
+        @media (max-width: 768px) {
+            body { font-size: 15px; }
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.6rem; }
+            h2 .lucide { width: 24px; height: 24px; }
+            .container { padding: 0 15px; }
+            .card { padding: 20px; }
+            #burgerMenuToggle { display: flex; } /* Changed to flex */
+            #site-navigation { 
+                position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+                background-color: rgba(0, 0, 0, 0.5); opacity: 0; visibility: hidden;
+                transition: opacity 0.3s ease, visibility 0.3s ease;
+            }
+            #site-navigation.is-open { opacity: 1; visibility: visible; }
+            #site-navigation .nav-container {
+                flex-direction: column; justify-content: flex-start; align-items: flex-start;
+                background-color: var(--card-bg-color); width: 80%; max-width: 300px;
+                height: 100%; padding: 60px 20px 20px 20px; box-shadow: 4px 0 15px rgba(0,0,0,0.1);
+                transform: translateX(-100%); transition: transform 0.3s ease;
+            }
+            #site-navigation.is-open .nav-container { transform: translateX(0); }
+            #site-navigation ul { flex-direction: column; width: 100%; }
+            .nav-item { width: 100%; margin: 5px 0; }
+            .nav-link { padding: 12px 0; justify-content: space-between; }
+            .dropdown-indicator { margin-left: 12px; }
+            .nav-dropdown {
+                position: static; opacity: 1; visibility: visible; box-shadow: none; border: none;
+                min-width: unset; transform: none; max-height: 0; overflow: hidden;
+                transition: max-height 0.3s ease-in-out;
+            }
+            .nav-item.is-open .nav-dropdown { max-height: 500px; }
+            .nav-dropdown ul { padding: 5px 0 5px 15px; }
+            .nav-dropdown a { padding: 8px 0; }
+        }
+
+        /* --- PRINT STYLES --- */
+        @media print {
+            html, body { background-color: #fff !important; color: #000 !important; font-size: 12pt; }
+            :root { --primary-color: #000; --secondary-color: #000; }
+            .card, header, footer { box-shadow: none !important; border: none !important; }
+            #site-navigation, .fixed-ui-button, #toc-sidebar { display: none !important; }
+            .lucide { display: none !important; } /* Hide icons for print */
+            .container { max-width: 100%; margin: 0; padding: 0; }
+            a { text-decoration: underline; color: #000 !important; }
+            a[href]:after { content: " (" attr(href) ")"; font-size: 0.9em; word-break: break-all; }
+            .intro-quote { border-color: #000; }
+            h2, h3 { page-break-after: avoid; }
+        }
+    </style>
+</head>
+<body itemscope itemtype="https://schema.org/ProfilePage">
+
+    <!-- Fixed UI Elements -->
+    <button id="darkModeToggle" class="fixed-ui-button" aria-label="Toggle dark mode">
+        <i id="moonIcon" data-lucide="moon" class="lucide"></i>
+        <i id="sunIcon" data-lucide="sun" class="lucide"></i>
+    </button>
+    <button id="burgerMenuToggle" class="fixed-ui-button" aria-label="Open navigation menu" aria-expanded="false">
+        <i data-lucide="menu" class="lucide"></i>
+    </button>
+    <button id="backToTopBtn" class="fixed-ui-button" title="Go to top" aria-label="Scroll to top of page">
+        <i data-lucide="arrow-up" class="lucide"></i>
+    </button>
+    <button id="printButton" class="fixed-ui-button" onclick="window.print()" title="Print as PDF" aria-label="Print this page as PDF">
+        <i data-lucide="printer" class="lucide"></i>
+    </button>
+    
+    <!-- Site Navigation -->
+    <nav id="site-navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <ul>
+                <li class="nav-item">
+                    <button class="nav-link" aria-expanded="false" aria-controls="dropdown-profile"><i data-lucide="user-circle" class="lucide"></i>Profile<span class="dropdown-indicator"></span></button>
+                    <div class="nav-dropdown" id="dropdown-profile"><ul>
+                        <li><a href="#professional-summary"><i data-lucide="file-text" class="lucide"></i>Summary</a></li>
+                        <li><a href="#core-competencies"><i data-lucide="gem" class="lucide"></i>Core Competencies</a></li>
+                    </ul></div>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" aria-expanded="false" aria-controls="dropdown-projects"><i data-lucide="lightbulb" class="lucide"></i>Projects<span class="dropdown-indicator"></span></button>
+                    <div class="nav-dropdown" id="dropdown-projects"><ul>
+                        <li><a href="#project-1"><i data-lucide="bar-chart-3" class="lucide"></i>BI Dashboard</a></li>
+                        <li><a href="#project-2"><i data-lucide="brain-circuit" class="lucide"></i>AI Analysis Platform</a></li>
+                        <li><a href="#project-3"><i data-lucide="rocket" class="lucide"></i>Alerion (Analytics)</a></li>
+                    </ul></div>
+                </li>
+                 <li class="nav-item">
+                    <button class="nav-link" aria-expanded="false" aria-controls="dropdown-wesai"><i data-lucide="cloud-cog" class="lucide"></i>WesAI<span class="dropdown-indicator"></span></button>
+                    <div class="nav-dropdown" id="dropdown-wesai"><ul>
+                        <li><a href="https://wesai-pa.netlify.app/" target="_blank" rel="noopener noreferrer"><i data-lucide="app-window" class="lucide"></i>Live Demo App</a></li>
+                        <li><a href="#project-2"><i data-lucide="file-text" class="lucide"></i>Project Details</a></li>
+                        <li><a href="https://alerion.netlify.app/" target="_blank" rel="noopener noreferrer"><i data-lucide="external-link" class="lucide"></i>Alerion WebApp</a></li>
+                    </ul></div>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" aria-expanded="false" aria-controls="dropdown-skills"><i data-lucide="graduation-cap" class="lucide"></i>Expertise<span class="dropdown-indicator"></span></button>
+                    <div class="nav-dropdown" id="dropdown-skills"><ul>
+                        <li><a href="#amazon-seo"><i data-lucide="search" class="lucide"></i>Amazon SEO</a></li>
+                        <li><a href="#amazon-ppc"><i data-lucide="mouse-pointer-click" class="lucide"></i>Amazon PPC</a></li>
+                        <li><a href="#catalog-design"><i data-lucide="layout-template" class="lucide"></i>Catalog & Design</a></li>
+                        <li><a href="#technical-skills"><i data-lucide="code-2" class="lucide"></i>Data & Technical</a></li>
+                    </ul></div>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" aria-expanded="false" aria-controls="dropdown-interview"><i data-lucide="message-square-quote" class="lucide"></i>Interview<span class="dropdown-indicator"></span></button>
+                    <div class="nav-dropdown" id="dropdown-interview"><ul>
+                        <li><a href="#interview-qa"><i data-lucide="help-circle" class="lucide"></i>Q&A Talking Points</a></li>
+                        <li><a href="#questions-for-you"><i data-lucide="list-checks" class="lucide"></i>My Questions for You</a></li>
+                    </ul></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Table of Contents Sidebar (Desktop only) -->
+    <aside id="toc-sidebar" aria-label="Table of Contents">
+        <h3><i data-lucide="list" class="lucide"></i>On This Page</h3>
+        <ul id="toc-list"></ul>
+    </aside>
+
+    <main class="container" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
+        <header>
+            <h1 itemprop="name">John Wesley Quintero</h1>
+            <p itemprop="jobTitle" style="font-size: 1.2rem; color: var(--light-text-color); font-weight: 500;">Amazon Specialist</p>
+            <div style="margin-top: 15px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <a itemprop="email" href="mailto:wesley.ecomva@gmail.com" class="icon-link"><i data-lucide="mail" class="lucide"></i>Email</a>
+                <a itemprop="sameAs" href="https://www.linkedin.com/in/johnwesleyquintero/" target="_blank" rel="noopener noreferrer" class="icon-link"><i data-lucide="linkedin" class="lucide"></i>LinkedIn</a>
+                <a itemprop="sameAs" href="https://github.com/johnwesleyquintero" target="_blank" rel="noopener noreferrer" class="icon-link"><i data-lucide="github" class="lucide"></i>GitHub</a>
+                <a itemprop="sameAs" href="https://wescode.vercel.app/" target="_blank" rel="noopener noreferrer" class="icon-link"><i data-lucide="user" class="lucide"></i>Portfolio</a>
+                <a itemprop="sameAs" href="https://johnwesleyquintero.netlify.app/" target="_blank" rel="noopener noreferrer" class="icon-link"><i data-lucide="file-text" class="lucide"></i>Resume</a>
+            </div>
+        </header>
+
+        <blockquote class="intro-quote">
+            "I solve critical Amazon business challenges by bridging the gap between data-driven strategy and technical execution. My adaptive methodology delivers measurable growth for any team—from high-tech agencies requiring custom automation to businesses focused on streamlined, effective manual workflows."
+        </blockquote>
+
+        <section id="professional-summary" class="card">
+            <h2><i data-lucide="user-round" class="lucide"></i>Professional Summary</h2>
+            <p>
+                With over five years of hands-on experience, I drive revenue growth and operational efficiency by mastering <strong>Amazon SEO, PPC, Catalog Management, and data analytics</strong>. My unique value is the ability to adapt my solutions to fit any team's structure and technical capabilities.
+            </p>
+            <ul class="icon-list">
+                <li>
+                    <i data-lucide="bot" class="lucide"></i>
+                    <div><strong>For technically-advanced teams,</strong> I architect and deploy custom automation using Python, the SP-API, and other tools to solve complex problems at scale and create a distinct competitive advantage.</div>
+                </li>
+                <li>
+                    <i data-lucide="file-spreadsheet" class="lucide"></i>
+                    <div><strong>For teams focused on manual workflows,</strong> I excel at optimizing existing processes. I build powerful, easy-to-use systems in Google Sheets and Looker Studio that transform standard reports into actionable insights—no new technical overhead required.</div>
+                </li>
+            </ul>
+            <p>
+                This dual capability makes me a uniquely versatile and high-impact partner, able to consistently translate data into profitable action and turn operational challenges into strategic advantages.
+            </p>
+        </section>
+
+        <section id="project-highlights" class="card">
+            <h2><i data-lucide="sparkles" class="lucide"></i>Featured Projects & Case Studies</h2>
+
+            <article id="project-1">
+                <h3>Project 1: Client Retention & Business Intelligence Dashboard</h3>
+                    <dl>
+                    <dt><i data-lucide="alert-triangle" class="lucide"></i>Challenge:</dt>
+                    <dd>A high-value client was on the verge of contract termination, frustrated by an ineffective manual reporting process that failed to integrate crucial data (SQL, Search Term reports, Helium 10) and provide clear strategic insights.</dd>
+                    
+                    <dt><i data-lucide="zap" class="lucide"></i>Action (Adaptive Solution):</dt>
+                    <dd>
+                        To save the partnership, I independently architected a full-stack BI solution.
+                        <ul class="icon-list">
+                            <li><i data-lucide="server" class="lucide"></i><div><strong>Backend Engine:</strong> Developed a backend using <strong>Python and Pandas</strong> to automate the ingestion, cleaning, and analysis of all required data sources.</div></li>
+                            <li><i data-lucide="layout-dashboard" class="lucide"></i><div><strong>Frontend Dashboard:</strong> Created a professional, intuitive <strong>Looker Studio dashboard</strong>. This key deliverable transformed complex data into simple, actionable visualizations.</div></li>
+                            <li><i data-lucide="presentation" class="lucide"></i><div><strong>Strategic Engagement:</strong> Led a high-stakes meeting where I successfully shifted the client's focus from operational complaints to strategic planning, using the new dashboard to guide the conversation.</div></li>
+                        </ul>
+                    </dd>
+
+                    <dt><i data-lucide="award" class="lucide"></i>Impact:</dt>
+                    <dd>
+                        <ul class="icon-list">
+                            <li><i data-lucide="handshake" class="lucide"></i><div><span class="impact-highlight">Retained a high-value client at a critical breaking point,</span> turning frustration into a renewed, strategic partnership.</div></li>
+                            <li><i data-lucide="thumbs-up" class="lucide"></i><div>The client praised the solution for providing the insights they "really needed to know."</div></li>
+                            <li><i data-lucide="star" class="lucide"></i><div>Demonstrated the ability to solve a critical business problem single-handedly with a full-stack solution.</div></li>
+                        </ul>
+                    </dd>
+                    <blockquote class="highlight">
+  <p><i data-lucide="rocket" class="lucide"></i> <strong>Want to see more?</strong> Explore my professional journey, Amazon projects, and full technical capabilities:</p>
+  <div class="link-group">
+    <a href="https://johnwesleyquintero.netlify.app/" target="_blank" rel="noopener noreferrer" class="icon-link featured">
+      <i data-lucide="file-text" class="lucide"></i>
+      <span>Detailed Resume & Case Studies</span>
+    </a>
+    <a href="https://wescode.vercel.app/" target="_blank" rel="noopener noreferrer" class="icon-link featured">
+      <i data-lucide="code" class="lucide"></i>
+      <span>Technical Portfolio & Live Projects</span>
+    </a>
+  </div>
+</blockquote>
+
+                </dl>
+            </article>
+
+            <hr style="margin: 40px 0; border: 0; border-top: 1px solid var(--border-color);">
+
+            <article id="project-2">
+                <h3>Project 2: AI-Powered Analysis & Forecasting Platform (WesAI)</h3>
+                <p><strong>Live Demo:</strong> <a href="https://wesai-pa.netlify.app/" target="_blank" rel="noopener noreferrer" class="icon-link"><i data-lucide="app-window" class="lucide"></i>WesAI Personal Assistant</a><br>
+                <strong>Credentials:</strong> User: <code>demo</code> | Password: <code>password</code></p>
+                <dl>
+                    <dt><i data-lucide="alert-triangle" class="lucide"></i>Challenge:</dt>
+                    <dd>Faced an overwhelming task to analyze over 1,000 ASINs, requiring large-scale review sentiment analysis, sales forecasting, and competitive data synthesis. Manual workflows were impossible.</dd>
+                
+                    <dt><i data-lucide="zap" class="lucide"></i>Action (Full-Stack Innovation):</dt>
+                    <dd>
+                        I architected and built the "WesAI" web application from the ground up.
+                        <ul class="icon-list">
+                            <li><i data-lucide="monitor-smartphone" class="lucide"></i><div><strong>Intuitive Frontend:</strong> Developed a modern UI with <strong>React and TypeScript</strong>, transforming a complex workflow into an accessible, single-click tool.</div></li>
+                            <li><i data-lucide="cpu" class="lucide"></i><div><strong>Powerful Backend:</strong> Built a robust Python backend to handle large-scale data processing for competitive analysis, sentiment processing, and forecasting.</div></li>
+                            <li><i data-lucide="brain-circuit" class="lucide"></i><div><strong>Custom AI Integration:</strong> Engineered a sophisticated integration with the <strong>Google Gemini API</strong> and developed a proprietary framework for fine-tuned prompt engineering.</div></li>
+                        </ul>
+                    </dd>
+
+                    <dt><i data-lucide="award" class="lucide"></i>Impact:</dt>
+                    <dd>
+                        <ul class="icon-list">
+                            <li><i data-lucide="timer" class="lucide"></i><div><span class="impact-highlight">Reduced a multi-week manual analysis project to just a few hours</span> of automated processing.</div></li>
+                            <li><i data-lucide="trophy" class="lucide"></i><div>Created a new, proprietary capability for the company, enabling sophisticated, large-scale analysis that was previously out of reach.</div></li>
+                            <li><i data-lucide="file-check-2" class="lucide"></i><div>Automated the generation of comprehensive reports synthesizing data for over 1,000 products.</div></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </article>
+
+            <hr style="margin: 40px 0; border: 0; border-top: 1px solid var(--border-color);">
+
+            <article id="project-3">
+                <h3>Project 3: Alerion (Amazon Analytics Platform)</h3>
+                <dl>
+                    <dt><i data-lucide="rocket" class="lucide"></i>Overview:</dt>
+                    <dd>
+                        <p><strong>Alerion</strong> is an enterprise-grade Amazon Advertising analytics platform that transforms advertising strategy with data-driven insights. It is designed to help Amazon sellers increase sales, lower ACoS, and save significant time.</p>
+                        <h4>Key Features:</h4>
+                        <ul class="icon-list">
+                            <li><i data-lucide="bar-chart-3"></i><div><strong>Comprehensive Analytics:</strong> Real-time campaign tracking, advanced search term analysis, and competitor benchmarking.</div></li>
+                            <li><i data-lucide="refresh-cw"></i><div><strong>Seamless Integrations:</strong> Connects directly with Amazon SP-API, Google Workspace, and features a Chrome Extension.</div></li>
+                            <li><i data-lucide="wrench"></i><div><strong>Powerful Tools:</strong> Includes AI-powered bid optimization, an automated rule engine, and a custom report builder.</div></li>
+                        </ul>
+                    </dd>
+                    <dt><i data-lucide="external-link" class="lucide"></i>Live Demo:</dt>
+                    <dd><a href="https://alerion.netlify.app/" target="_blank" rel="noopener noreferrer">Alerion WebApp</a></dd>
+                    <dt><i data-lucide="megaphone" class="lucide"></i>Call to Action:</dt>
+                    <dd>
+                        <p>Interested in transforming your Amazon advertising strategy? <span class="impact-highlight">Register to test our beta Alerion Amazon platform</span> and connect with me for feedback!</p>
+                        <p><a href="https://www.linkedin.com/in/johnwesleyquintero/" target="_blank" rel="noopener noreferrer" class="icon-link"><i data-lucide="linkedin" class="lucide"></i>Connect with me on LinkedIn</a></p>
+                    </dd>
+                </dl>
+            </article>
+        </section>
+
+        <section id="core-competencies" class="card">
+            <h2><i data-lucide="gem" class="lucide"></i>Core Competencies</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+                <div id="amazon-seo">
+                    <h3><i data-lucide="search" class="lucide"></i>Amazon SEO</h3>
+                    <ul class="icon-list">
+                        <li><i data-lucide="key-round"></i>Keyword Research & Mapping</li>
+                        <li><i data-lucide="file-edit"></i>Listing & Title Optimization</li>
+                        <li><i data-lucide="layout-template"></i>A+ Content & Storefront Design</li>
+                        <li><i data-lucide="tags"></i>Backend Search Term Strategy</li>
+                        <li><i data-lucide="trending-up"></i>Organic Rank Tracking</li>
+                    </ul>
+                </div>
+                <div id="amazon-ppc">
+                    <h3><i data-lucide="mouse-pointer-click" class="lucide"></i>Amazon PPC</h3>
+                    <ul class="icon-list">
+                        <li><i data-lucide="megaphone"></i>Sponsored Products, Brands, Display</li>
+                        <li><i data-lucide="target"></i>ACoS & TACOS Optimization</li>
+                        <li><i data-lucide="workflow"></i>Campaign Structuring & Bidding</li>
+                        <li><i data-lucide="filter"></i>Search Term Report Analysis</li>
+                        <li><i data-lucide="search-slash"></i>Negative Keyword Strategy</li>
+                    </ul>
+                </div>
+                <div id="catalog-design">
+                    <h3><i data-lucide="database" class="lucide"></i>Catalog & Design</h3>
+                    <ul class="icon-list">
+                        <li><i data-lucide="file-up"></i>Flat File & Bulk Upload Management</li>
+                        <li><i data-lucide="package-plus"></i>Listing Creation & Variation Handling</li>
+                        <li><i data-lucide="image"></i>Image Compliance & Optimization</li>
+                        <li><i data-lucide="shield-check" class="lucide"></i>Brand Health & Case Management</li>
+                        <li><i data-lucide="pencil-ruler"></i>Graphic Design for Listings & A+</li>
+                    </ul>
+                </div>
+                <div id="technical-skills">
+                    <h3><i data-lucide="code-2" class="lucide"></i>Data & Technical Skills</h3>
+                    <ul class="icon-list">
+                        <li><i data-lucide="bar-chart-3"></i><strong>BI Dashboards:</strong> Looker Studio, Power BI</li>
+                        <li><i data-lucide="bot"></i><strong>Automation:</strong> Python (Pandas), Node.js</li>
+                        <li><i data-lucide="file-spreadsheet"></i><strong>Data Analysis:</strong> Advanced Excel, Sheets</li>
+                        <li><i data-lucide="monitor"></i><strong>Web Dev:</strong> React, TypeScript, HTML/CSS</li>
+                        <li><i data-lucide="brain-circuit"></i><strong>AI Integration:</strong> Gemini API, Prompting</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="interview-qa" class="card">
+            <h2><i data-lucide="message-circle-question" class="lucide"></i>Interview Q&A: Talking Points</h2>
+            <dl>
+                <dt><i data-lucide="help-circle"></i>Q: How do you approach reporting and data analysis?</dt>
+                <dd>
+                    <p>My approach is to create a clear, actionable story from the data that is tailored to the team's workflow. I always start by defining the primary business goal, whether it's profitability, market share growth, or a new product launch.</p>
+                </dd>
+
+                <dt><i data-lucide="help-circle"></i>Q: Tell me about a time you used data to find an insight.</dt>
+                <dd>
+                    <p>A client's overall ACoS was rising despite flat ad spend. I combined their Search Term Report with Business Reports by ASIN and quickly discovered two issues: 1) wasted spend on an irrelevant search term, and 2) a quiet conversion drop on their top ASIN.</p>
+                    <p>The solution was a negative keyword strategy and a main image refresh. The result was a <span class="impact-highlight">15% reduction in ACoS and a restored conversion rate,</span> directly improving their bottom line.</p>
+                </dd>
+                
+                <dt><i data-lucide="help-circle"></i>Q: How would you handle a complex catalog with thousands of ASINs?</dt>
+                <dd>
+                    <p>That's a challenge where my adaptive skillset truly shines, as large catalogs require systematic, not manual, solutions. My approach depends on the team's capabilities, ranging from custom Python scripts for full automation (like my WesAI project) to robust, formula-driven Excel/Sheets templates for streamlined manual management.</p>
+                </dd>
+            </dl>
+        </section>
+
+        <section id="questions-for-you" class="card">
+            <h2><i data-lucide="list-checks" class="lucide"></i>My Questions for You</h2>
+            <p>I believe a successful partnership is a two-way street. To better understand your needs and how I can best contribute, here are a few questions I have for you:</p>
+            <dl class="icon-list" style="list-style-type: none; padding-left: 0;">
+                <li><i data-lucide="crosshair" class="lucide"></i><div><strong>What are the most critical KPIs for this role, and how is success measured?</strong><br>Understanding your key metrics helps me align my efforts directly with your most important business objectives.</div></li>
+                <li><i data-lucide="users" class="lucide"></i><div><strong>Can you describe the current team structure and how this role would collaborate?</strong><br>Knowing the team dynamics allows me to understand how I can best integrate and support my colleagues.</div></li>
+                <li><i data-lucide="siren" class="lucide"></i><div><strong>What are the biggest challenges or opportunities for your Amazon business right now?</strong><br>This helps me identify where my specific skills in automation or analytics can provide immediate value.</div></li>
+                <li><i data-lucide="cuboid" class="lucide"></i><div><strong>What technical resources (e.g., SP-API access, software) are available to this role?</strong><br>Understanding the available toolkit helps me determine the most effective path to achieving our goals.</div></li>
+                <li><i data-lucide="trending-up" class="lucide"></i><div><strong>How does your company foster professional development and continuous learning?</strong><br>I am committed to staying at the forefront of e-commerce trends and thrive in an environment that encourages growth.</div></li>
+            </dl>
+        </section>
+
+    </main>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // --- CACHE DOM ELEMENTS ---
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const backToTopBtn = document.getElementById('backToTopBtn');
+        const burgerMenuToggle = document.getElementById('burgerMenuToggle');
+        const siteNav = document.getElementById('site-navigation');
+        const navLinks = document.querySelectorAll('.nav-link');
+        const tocList = document.getElementById('toc-list');
+        const headings = document.querySelectorAll('main h2, main h3');
+
+        // --- DARK MODE ---
+        const applyTheme = (theme) => {
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark');
+                darkModeToggle.setAttribute('aria-label', 'Switch to light mode');
+            } else {
+                document.documentElement.classList.remove('dark');
+                darkModeToggle.setAttribute('aria-label', 'Switch to dark mode');
+            }
+        };
+
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        applyTheme(savedTheme || (prefersDark ? 'dark' : 'light'));
+
+        darkModeToggle.addEventListener('click', () => {
+            const newTheme = document.documentElement.classList.contains('dark') ? 'light' : 'dark';
+            localStorage.setItem('theme', newTheme);
+            applyTheme(newTheme);
+        });
+
+        // --- NAVIGATION (BURGER & DROPDOWNS) ---
+        burgerMenuToggle.addEventListener('click', () => {
+            const isOpen = siteNav.classList.toggle('is-open');
+            burgerMenuToggle.setAttribute('aria-expanded', isOpen);
+        });
+
+        siteNav.addEventListener('click', (e) => {
+            if (e.target === siteNav) {
+                siteNav.classList.remove('is-open');
+                burgerMenuToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                const parentItem = link.parentElement;
+                const isDropdown = parentItem.querySelector('.nav-dropdown');
+                if (isDropdown) {
+                    e.preventDefault();
+                    const wasOpen = parentItem.classList.contains('is-open');
+                    document.querySelectorAll('.nav-item.is-open').forEach(item => item.classList.remove('is-open'));
+                    if (!wasOpen) parentItem.classList.add('is-open');
+                    link.setAttribute('aria-expanded', !wasOpen);
+                }
+            });
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-item')) {
+                document.querySelectorAll('.nav-item.is-open').forEach(item => item.classList.remove('is-open'));
+            }
+        });
+
+        // --- BACK TO TOP BUTTON ---
+        const handleScroll = () => {
+            backToTopBtn.style.display = (window.scrollY > 300) ? 'flex' : 'none'; // Changed to flex
+        };
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        backToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+        // --- TABLE OF CONTENTS & SCROLLSPY ---
+        if (tocList && headings.length > 0) {
+            headings.forEach(heading => {
+                const parentSection = heading.closest('section[id], article[id]');
+                if (parentSection && parentSection.id) {
+                    const listItem = document.createElement('li');
+                    const link = document.createElement('a');
+                    link.href = `#${parentSection.id}`;
+                    link.textContent = heading.textContent;
+                    if(heading.tagName === 'H3') link.style.paddingLeft = '25px';
+                    listItem.appendChild(link);
+                    tocList.appendChild(listItem);
+                }
+            });
+
+            const tocLinks = tocList.querySelectorAll('a');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    const id = entry.target.getAttribute('id');
+                    const link = tocList.querySelector(`a[href="#${id}"]`);
+                    if (link && entry.isIntersecting && entry.intersectionRatio > 0) {
+                        tocLinks.forEach(l => l.classList.remove('active'));
+                        link.classList.add('active');
+                    }
+                });
+            }, { rootMargin: `-80px 0px -40% 0px` });
+
+            document.querySelectorAll('main section[id], main article[id]').forEach(section => observer.observe(section));
+
+             tocLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    if (siteNav.classList.contains('is-open')) {
+                        siteNav.classList.remove('is-open');
+                        burgerMenuToggle.setAttribute('aria-expanded', 'false');
+                    }
+                    const targetId = this.getAttribute('href');
+                    document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+        }
+    });
+    </script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
